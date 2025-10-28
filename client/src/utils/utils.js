@@ -1,4 +1,5 @@
-import { BASE_URI } from "../api/api";
+// import { BASE_URI } from "../api/api";
+const BASE_URI = "https://mern-stack-blgq-api.vercel.app";
 
 export const createTask = async (taskObj) => {
   const url = `${BASE_URI}/create/task`;
